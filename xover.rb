@@ -13,7 +13,7 @@ def timeXOver(number, individual, another)
 end
 
 length = 16
-iterations  = 10000
+iterations  = 100000
 top = 32768
 
 while length <= top
