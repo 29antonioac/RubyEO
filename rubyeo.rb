@@ -42,10 +42,6 @@ def crossover(chromosome, another)
     interval += rand(len - xoverPoint - 2)
   end
 
-  puts "len = " , len
-  puts "xoverPoint = " , xoverPoint
-  puts "interval = " , interval
-
   new_chrom   = chromosome[0..xoverPoint-1]
   new_another = another[0..xoverPoint-1]
 
