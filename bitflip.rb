@@ -1,4 +1,4 @@
-#/usr/bin/ruby
+#!/usr/bin/ruby
 
 require './rubyeo.rb'
 require 'benchmark'
@@ -18,6 +18,6 @@ top = 32768
 
 while length <= top
   individual = randomChromosome(length)
-  puts "Ruby-BitString, " + length.to_s + ", " + timeMutations(length, individual).to_s
+  puts "Ruby-BitString, " + length.to_s + ", " + timeMutations(iterations, individual).to_s
   length *= 2
 end
