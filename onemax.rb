@@ -18,6 +18,6 @@ top = 32768
 
 while length <= top
   individual = randomChromosome(length)
-  puts "Ruby-MaxOnes, " + length.to_s + ", " + timeMaxOnes(iterations, individual).to_s
+  puts "Ruby-BitVector, " + length.to_s + ", " + timeMaxOnes(iterations, individual).to_s
   length *= 2
 end
